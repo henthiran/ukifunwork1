@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 
 
-  SC.stream('/tracks/1327181875', function(sound) {
+  SC.stream('/track-stations:1327181875', function(sound) {
     $('#start1').click(function(e) {
       e.preventDefault();
       sound.start();
